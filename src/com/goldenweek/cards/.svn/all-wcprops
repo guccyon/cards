@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/info-hackathon/!svn/ver/36/gae/src/com/goldenweek/cards
+END
+RootServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/info-hackathon/!svn/ver/31/gae/src/com/goldenweek/cards/RootServlet.java
+END
+DatabaseContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/info-hackathon/!svn/ver/28/gae/src/com/goldenweek/cards/DatabaseContext.java
+END

@@ -1,0 +1,31 @@
+package com.goldenweek.cards.controller;
+
+import javax.servlet.http.HttpServletRequest;
+
+import com.goldenweek.cards.model.Context;
+
+public class ContextController {
+	
+	public String delegate(HttpServletRequest req, String actionPath) {
+		if(req.getMethod().toLowerCase().equals("post")) {
+			return create(req);
+		} else if(req.getMethod().toLowerCase().equals("delete")) {
+			return finish(req);
+		} else {
+			return "";
+		}
+	}
+	
+	public String create(HttpServletRequest req) {
+		Context context = new Context(0);
+		//context.insertOrUpdate();
+		String id = "\"" + context.getId() + "hogehoge\"";
+		
+		
+		return "{contextId:" + id + ", playerId: 11111}";
+	}
+	
+	public String finish(HttpServletRequest req) {
+		return "finish";
+	}
+}

@@ -1,0 +1,45 @@
+package com.goldenweek.cards;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.goldenweek.cards.controller.CardsController;
+import com.goldenweek.cards.controller.ContextController;
+
+public class RootServlet extends HttpServlet {
+
+	
+	@Override
+	protected void doGet(final HttpServletRequest req, final HttpServletResponse res)
+			throws ServletException, IOException {
+		String actionPath = req.getServletPath().replace("/cards", "");
+		String response = "";
+		
+		try {
+
+			if (actionPath.equals("/Cards")) {
+				CardsController cards = new CardsController();
+				response = cards.delegate(req, actionPath);
+			} else if (actionPath.equals("/Context")) {
+				ContextController context = new ContextController();
+				response = context.delegate(req, actionPath);
+			}
+				
+		} catch(UnsupportedOperationException uoe) {
+			
+		}
+		
+		res.getWriter().print(response);
+	}
+
+	@Override
+	protected void doPost(final HttpServletRequest arg0, final HttpServletResponse arg1)
+			throws ServletException, IOException {
+		doGet(arg0, arg1);
+	}
+
+}

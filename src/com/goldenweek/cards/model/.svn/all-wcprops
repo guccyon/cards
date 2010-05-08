@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/info-hackathon/!svn/ver/36/gae/src/com/goldenweek/cards/model
+END
+Context.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/info-hackathon/!svn/ver/33/gae/src/com/goldenweek/cards/model/Context.java
+END
+Suit.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/info-hackathon/!svn/ver/14/gae/src/com/goldenweek/cards/model/Suit.java
+END
+Deck.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/info-hackathon/!svn/ver/26/gae/src/com/goldenweek/cards/model/Deck.java
+END
+Card.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/info-hackathon/!svn/ver/29/gae/src/com/goldenweek/cards/model/Card.java
+END
+Discard.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/info-hackathon/!svn/ver/15/gae/src/com/goldenweek/cards/model/Discard.java
+END
+Pool.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/info-hackathon/!svn/ver/18/gae/src/com/goldenweek/cards/model/Pool.java
+END
+Hand.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/info-hackathon/!svn/ver/15/gae/src/com/goldenweek/cards/model/Hand.java
+END
+Player.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/info-hackathon/!svn/ver/36/gae/src/com/goldenweek/cards/model/Player.java
+END
